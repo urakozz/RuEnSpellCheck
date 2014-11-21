@@ -61,6 +61,8 @@
  */
 
 namespace Kozz\Components\UTF8;
+use Collator;
+use Kozz\Components\Reflection\ReflectionTypeHint;
 
 class UTF8
 {
