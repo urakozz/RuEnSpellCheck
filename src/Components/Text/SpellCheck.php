@@ -45,7 +45,14 @@
  * @author   Nasibullin Rinat
  * @version  1.4.3
  */
-class Text_LangCorrect
+
+
+namespace Kozz\Components\Text;
+
+use Kozz\Components\Reflection\ReflectionTypeHint;
+use Kozz\Components\UTF8\UTF8;
+
+class SpellCheck
 {
 	/**
 	 * Флаг для исправления ошибочно набранных букв в словах,

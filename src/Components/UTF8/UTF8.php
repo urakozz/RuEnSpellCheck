@@ -59,6 +59,9 @@
  * @author   Nasibullin Rinat
  * @version  2.2.2
  */
+
+namespace Kozz\Components\UTF8;
+
 class UTF8
 {
 	#REPLACEMENT CHARACTER (for broken char)

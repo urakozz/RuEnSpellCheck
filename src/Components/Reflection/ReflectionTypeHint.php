@@ -24,6 +24,11 @@
  * @author   Nasibullin Rinat
  * @version  1.1.0
  */
+
+namespace Kozz\Components\Reflection;
+
+use ReflectionMethod;
+
 class ReflectionTypeHint
 {
 	protected static $hints = array(
